@@ -3,11 +3,25 @@
     "description": "assembly compiler",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "ahkui",
-            "email": "ahkui@outlook.com"
+    "authors": [{
+        "name": "ahkui",
+        "email": "ahkui@outlook.com"
+    }],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Assembly\\": "src/"
         }
-    ],
-    "require": {}
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
 }
